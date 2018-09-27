@@ -1,16 +1,27 @@
+style {
+  .h1-color{
+    color: yellow;
+  }
+  .test{
+    color:orange;
+  }
+  body header.my-header{
+    background-image: url('./img/about-bg.jpg');
+  }
+}
 <site-layout>
     <@title> About</@title>
    
     <@content>
      <site-nav></site-nav>
      
-    <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+    <header class="masthead my-header">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
               <div class="page-heading">
-                <h1>About Me</h1>
+                <h1 class="h1-color">About Me</h1>
                 <span class="subheading">I am Web Developer</span>
               </div>
             </div>
@@ -38,7 +49,7 @@
          </div>
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
-           <h1>Bootstarp</h1><p>Bootstrap is a free front-end framework for faster and easier web development
+           <h1>Bootstarp</h1><p class="test">Bootstrap is a free front-end framework for faster and easier web development
               Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
               Bootstrap also gives you the ability to easily create responsive designs</p>
             <h1>Grid</h1><p>Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.
