@@ -9,6 +9,7 @@
 {"path":"./js/contact_me.js" , "type":"js"},
 {"path":"./js/jqBootstrapvalidation.js" , "type":"js"},
 {"path":"./resume.css" ,"type":"css"},
-{"path":"./js.1/resume.js" , "type":"js"}
+{"path":"./js.1/resume.js" , "type":"js"},
+{"path":"./fontawesome-free/css/all.css" ,"type":"css"}
     ]
 }
